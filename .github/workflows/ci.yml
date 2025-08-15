@@ -25,7 +25,7 @@ jobs:
         run: |
           mkdir -p artifacts
           # 根据实际产物名/路径调整
-          cp build/libqjs.so artifacts/
+          cp build/libqjs.a artifacts/
 
       # 上传到 GitHub Actions 的 artifact 存储
       - name: Upload compiled library
